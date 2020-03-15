@@ -1,6 +1,5 @@
 module.exports = {
   chainWebpack: config => {
-    // GraphQL Loader
     config.module
       .rule('comlink')
       .test(/\.worker\.ts$/i)
